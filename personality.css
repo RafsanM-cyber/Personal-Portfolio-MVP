@@ -1,0 +1,139 @@
+.items {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+}
+
+.items:hover {
+    opacity: 0.5;
+}
+
+nav {
+    float: right;
+}
+
+.landscape {
+    height: 80vh; /* Keeps the height at 70% of the viewport height */
+    overflow: hidden; /* Hides any overflow to ensure the image is cropped */
+    position: relative;
+    width: 100%; /* Ensures the landscape div covers the full width of the page */
+    margin-top: 100px; /* Adjust this value as needed */
+}
+
+.landscape img {
+    width: 100%; /* Ensures the image covers the full width of the container */
+    height: 100%; /* Ensures the image covers the full height of the landscape div */
+    object-fit: cover; /* Crops the image slightly while covering the entire container */
+    object-position: center; /* Centers the image within the container */
+}
+
+
+.life {
+    position: relative;
+    color: wheat;
+    text-align: center;
+    margin-top: -350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Passion {
+    margin-top: 400px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interest {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.Travel {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.Bangladesh img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Btext {
+    width: 700px;
+    text-align: left;
+    margin-top: -380px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Canada img {
+     height: 320px;
+     margin-top: 100px;
+     margin-left: 50px;
+}
+
+
+.Ctext {
+    width: 700px;
+    text-align: left;
+    margin-top: -300px;
+    font-size: 19px;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.USA img{
+    height: 319px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.Atext {
+    margin-top: -300px;
+    width: 700px;
+    font-size: 19px;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hob {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+.Hobby img{
+     margin-top: 50px;
+     width: 900px;
+     float: right;
+}
+
+.h {
+    margin-top: 70px;
+    width: 600px;
+    font-size: 21px;
+    margin-left: 50px;
+    
+}
+
+.h ul{
+    margin-left: 180px;
+    
+}
+
+.h p{
+    text-align: center;
+}
+
+body {
+    padding-bottom: 40px;
+}
+
+
+
+

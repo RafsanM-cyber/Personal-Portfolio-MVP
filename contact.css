@@ -1,0 +1,172 @@
+.items {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+}
+
+.items:hover {
+    opacity: 0.5;
+}
+
+nav {
+    float: right;
+}
+
+.fa-instagram {
+    font-size: 200px;
+    margin-top: 200px;
+    margin-left: 50px;
+   color: transparent;
+   background-clip: text;
+   background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); ;
+ }
+
+.fa-linkedin {
+    font-size: 200px;
+    margin-left: 200px;
+    color: steelblue;
+}
+
+.fa-github {
+    font-size: 200px;
+    margin-left: 200px;
+    color: purple;
+}
+
+.social {
+    display: inline-block;
+}
+
+
+
+.gmail img{
+    height: 200px;
+    float: right;
+    margin-right: 80px;
+    margin-top: -200px;
+    
+}
+
+.Itext {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.ltext {
+    margin-left: 350px;
+    margin-top: -52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+
+.Gtext {
+    margin-left: 750px;
+    margin-top: -53px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.Mtext {
+    float: right;
+    margin-right: 20px;
+    margin-top: -75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+
+.Contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.contact-left {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 20px;
+   
+}
+
+.contact-left-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 300px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Contact-input {
+        width: 400px;
+        height: 50px; 
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: black;
+        border-radius: 50px;
+        border: 2px solid black;
+        background-color: #ff994f;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-right {
+    margin-top: -550px;
+   float: right;
+}
+
+
+.Contact-input:focus{
+    border: 2px solid red;
+}
+
+.contact-left-title {
+    width: 1900px;
+    font-size: 38.4px;
+}
+
+.contact-left textarea {
+    height: 200px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.Contact-input::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(#ff994f, #fa6d86);
+    border-radius: 50px;
+}
+
+
+@media (max-width:800px) {
+    .Contact-input {
+        width: 80vw;
+      }
+
+
+
+    }
